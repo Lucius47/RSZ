@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa509635ce6cc74288fef523adcd7f1, type: 3}
+  m_Name: Challenge Mode Levels
+  m_EditorClassIdentifier: 
+  levels:
+  - levelObjective: '1: Travel 1km'
+    levelWinCoins: 500
+    challengeType: 0
+    trafficMode: 0
+    environment: 0
+    distance: 1
+    time: 0
+    score: 0
+    speedToMaintain: 0
+    nearMisses: 0
+    timeToCompleteChallenge: 0
+  - levelObjective: '2: Travel 500 meters in 30 seconds'
+    levelWinCoins: 500
+    challengeType: 1
+    trafficMode: 0
+    environment: 0
+    distance: 0.5
+    time: 0
+    score: 0
+    speedToMaintain: 0
+    nearMisses: 0
+    timeToCompleteChallenge: 30
+  - levelObjective: '3: Travel for 20 seconds'
+    levelWinCoins: 500
+    challengeType: 2
+    trafficMode: 1
+    environment: 0
+    distance: 0
+    time: 20
+    score: 0
+    speedToMaintain: 0
+    nearMisses: 0
+    timeToCompleteChallenge: 0
+  - levelObjective: '4: Get 600 score'
+    levelWinCoins: 500
+    challengeType: 3
+    trafficMode: 1
+    environment: 0
+    distance: 0
+    time: 0
+    score: 600
+    speedToMaintain: 0
+    nearMisses: 0
+    timeToCompleteChallenge: 0
+  - levelObjective: '5: Get 1000 score in 45 seconds'
+    levelWinCoins: 500
+    challengeType: 4
+    trafficMode: 0
+    environment: 0
+    distance: 0
+    time: 0
+    score: 1000
+    speedToMaintain: 0
+    nearMisses: 0
+    timeToCompleteChallenge: 45
+  - levelObjective: '6: Perform 3 overtakes'
+    levelWinCoins: 500
+    challengeType: 5
+    trafficMode: 0
+    environment: 0
+    distance: 0
+    time: 0
+    score: 0
+    speedToMaintain: 0
+    nearMisses: 3
+    timeToCompleteChallenge: 0
+  - levelObjective: '7: Perform 5 overtakes in 60 seconds'
+    levelWinCoins: 500
+    challengeType: 6
+    trafficMode: 0
+    environment: 0
+    distance: 0
+    time: 0
+    score: 0
+    speedToMaintain: 0
+    nearMisses: 5
+    timeToCompleteChallenge: 60
+  - levelObjective: '8: Travel 500 meters in wrong way'
+    levelWinCoins: 500
+    challengeType: 7
+    trafficMode: 1
+    environment: 0
+    distance: 0.5
+    time: 0
+    score: 0
+    speedToMaintain: 0
+    nearMisses: 0
+    timeToCompleteChallenge: 0
+  - levelObjective: '9: Drive for 20 seconds in wrong way'
+    levelWinCoins: 500
+    challengeType: 8
+    trafficMode: 1
+    environment: 0
+    distance: 0
+    time: 20
+    score: 0
+    speedToMaintain: 0
+    nearMisses: 0
+    timeToCompleteChallenge: 0
+  - levelObjective: '10: Maintain speed above 120 for 15 seconds'
+    levelWinCoins: 500
+    challengeType: 9
+    trafficMode: 0
+    environment: 0
+    distance: 0
+    time: 15
+    score: 0
+    speedToMaintain: 120
+    nearMisses: 0
+    timeToCompleteChallenge: 0

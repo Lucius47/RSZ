@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: e36226eba6f4ded44a692c16c49e86ba
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Body
+  - first:
+      1: 100002
+    second: Door Left
+  - first:
+      1: 100004
+    second: Door Right
+  - first:
+      1: 100006
+    second: //RootNode
+  - first:
+      1: 100008
+    second: Steering
+  - first:
+      1: 100010
+    second: Wheel FL
+  - first:
+      1: 100012
+    second: Wheel FR
+  - first:
+      1: 100014
+    second: Wheel RL
+  - first:
+      1: 100016
+    second: Wheel RR
+  - first:
+      4: 400000
+    second: Body
+  - first:
+      4: 400002
+    second: Door Left
+  - first:
+      4: 400004
+    second: Door Right
+  - first:
+      4: 400006
+    second: //RootNode
+  - first:
+      4: 400008
+    second: Steering
+  - first:
+      4: 400010
+    second: Wheel FL
+  - first:
+      4: 400012
+    second: Wheel FR
+  - first:
+      4: 400014
+    second: Wheel RL
+  - first:
+      4: 400016
+    second: Wheel RR
+  - first:
+      21: 2100000
+    second: Rims Disc
+  - first:
+      21: 2100002
+    second: Rims
+  - first:
+      21: 2100004
+    second: Tire Treads
+  - first:
+      21: 2100006
+    second: Tire Sidewall
+  - first:
+      21: 2100008
+    second: Body 4
+  - first:
+      21: 2100010
+    second: Body 2
+  - first:
+      21: 2100012
+    second: Interior
+  - first:
+      21: 2100014
+    second: Grills
+  - first:
+      21: 2100016
+    second: Body 3
+  - first:
+      21: 2100018
+    second: Roof Back
+  - first:
+      21: 2100020
+    second: Body 1
+  - first:
+      21: 2100022
+    second: Glass
+  - first:
+      21: 2100024
+    second: Exhaust Pipes
+  - first:
+      21: 2100026
+    second: Mirror
+  - first:
+      21: 2100028
+    second: SpeedOMeter
+  - first:
+      21: 2100030
+    second: HeadLights Glass
+  - first:
+      21: 2100032
+    second: HeadLights 2
+  - first:
+      21: 2100034
+    second: HeadLights 1
+  - first:
+      21: 2100036
+    second: Indicator
+  - first:
+      21: 2100038
+    second: TailLights 2
+  - first:
+      21: 2100040
+    second: TailLights 1
+  - first:
+      21: 2100042
+    second: Reverse Lights
+  - first:
+      21: 2100044
+    second: TailLights Glass
+  - first:
+      21: 2100046
+    second: Steering
+  - first:
+      21: 2100048
+    second: Side Mirror
+  - first:
+      23: 2300000
+    second: Body
+  - first:
+      23: 2300002
+    second: Door Left
+  - first:
+      23: 2300004
+    second: Door Right
+  - first:
+      23: 2300006
+    second: Steering
+  - first:
+      23: 2300008
+    second: Wheel FL
+  - first:
+      23: 2300010
+    second: Wheel FR
+  - first:
+      23: 2300012
+    second: Wheel RL
+  - first:
+      23: 2300014
+    second: Wheel RR
+  - first:
+      33: 3300000
+    second: Body
+  - first:
+      33: 3300002
+    second: Door Left
+  - first:
+      33: 3300004
+    second: Door Right
+  - first:
+      33: 3300006
+    second: Steering
+  - first:
+      33: 3300008
+    second: Wheel FL
+  - first:
+      33: 3300010
+    second: Wheel FR
+  - first:
+      33: 3300012
+    second: Wheel RL
+  - first:
+      33: 3300014
+    second: Wheel RR
+  - first:
+      43: 4300000
+    second: Wheel RL
+  - first:
+      43: 4300002
+    second: Wheel RR
+  - first:
+      43: 4300004
+    second: Wheel FR
+  - first:
+      43: 4300006
+    second: Wheel FL
+  - first:
+      43: 4300008
+    second: Body
+  - first:
+      43: 4300010
+    second: Steering
+  - first:
+      43: 4300012
+    second: Door Right
+  - first:
+      43: 4300014
+    second: Door Left
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body 1
+    second: {fileID: 2100000, guid: 7b34567c5963d40459c35c3f904a3e89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body 2
+    second: {fileID: 2100000, guid: ca45c50e31822ea439ef70046baa654b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body 3
+    second: {fileID: 2100000, guid: fa8c6d44b5e9ad442830aece1d432911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body 4
+    second: {fileID: 2100000, guid: 09ab75e388fd42847b98dec878393701, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exhaust Pipes
+    second: {fileID: 2100000, guid: ea0618ddedffcbc4fbea11c6664194df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 62890c586da5bb04abe12a4f97f2eb4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grills
+    second: {fileID: 2100000, guid: 51af375a89e00c0438c6162a07f6a4e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HeadLights 1
+    second: {fileID: 2100000, guid: db582264ca0c077459d9e0ca7a2db953, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HeadLights 2
+    second: {fileID: 2100000, guid: 96d46d7fdd6407d439910a51edb392f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HeadLights Glass
+    second: {fileID: 2100000, guid: 4bb9e70ecdc6d2a43a0bc660ebcfae01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Indicator
+    second: {fileID: 2100000, guid: 604c1b25b5f31b84384a61300469836e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior
+    second: {fileID: 2100000, guid: 2e26d4f56bf960a4ca8807906bf32ebf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mirror
+    second: {fileID: 2100000, guid: dcb0f27eb537b6340b9d956304d0bfcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Reverse Lights
+    second: {fileID: 2100000, guid: 72c297424f2a8854c94f1349c8c0cdac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rims
+    second: {fileID: 2100000, guid: 6596d8673e4623c44af138ddab368512, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rims Disc
+    second: {fileID: 2100000, guid: df50ab3650972ae4fa74683cd4350c93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof Back
+    second: {fileID: 2100000, guid: b6f6ee9f0daa2074ba755d2ddb22ff69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Side Mirror
+    second: {fileID: 2100000, guid: 950ee0f0a253c864d8a195fd7d049929, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SpeedOMeter
+    second: {fileID: 2100000, guid: fe8944e5bfc3e834ca4f3a61c8b150b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steering
+    second: {fileID: 2100000, guid: b8e2e9f3d93dae348846d91b50df5bcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TailLights 1
+    second: {fileID: 2100000, guid: 49291d5d7446fc944863cd9a560b9af7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TailLights 2
+    second: {fileID: 2100000, guid: 92251d6b457e00143a9599b2d6e0f113, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TailLights Glass
+    second: {fileID: 2100000, guid: ec77877979001974c9e9658bc9843ee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tire Sidewall
+    second: {fileID: 2100000, guid: a55d1a33e0021b34b893cf0990f6a45b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tire Treads
+    second: {fileID: 2100000, guid: fa55bc696f51a1f4e80487af331fd7da, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.01
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
