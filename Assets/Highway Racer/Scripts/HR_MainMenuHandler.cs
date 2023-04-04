@@ -304,7 +304,7 @@ public class HR_MainMenuHandler : MonoBehaviour
     public void SelectCMLevelAndPlay(int level)
     {
         GameState.CurrentCMLevel = level;
-        SelectScene(4);
+        SelectScene(2);
     }
 
     public void SelectTrafficMode(int mode)

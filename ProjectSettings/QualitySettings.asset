@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 3
+  m_CurrentQuality: 2
   m_QualitySettings:
   - serializedVersion: 2
     name: Low
@@ -151,7 +151,7 @@ QualitySettings:
     customRenderPipeline: {fileID: 0}
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
-    Android: 1
+    Android: 2
     BlackBerry: 0
     FlashPlayer: 1
     GLES Emulation: 1
@@ -160,8 +160,8 @@ QualitySettings:
     PSM: 1
     PSP2: 1
     Samsung TV: 0
-    Server: 0
-    Standalone: 3
+    Server: 2
+    Standalone: 2
     Tizen: 0
     WP8: 1
     Web: 2

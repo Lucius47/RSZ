@@ -164,6 +164,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1447817774}
     m_Modifications:
+    - target: {fileID: 4969304076105041438, guid: 1b6b9e30ff0d8d643ae324a126cd4216,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4969304076105044736, guid: 1b6b9e30ff0d8d643ae324a126cd4216,
         type: 3}
       propertyPath: m_RootOrder
@@ -570,6 +575,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8387215224239094277, guid: 695d0fe66f04ba142b0fb96d64f42b97,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 695d0fe66f04ba142b0fb96d64f42b97, type: 3}
 --- !u!4 &343011804 stripped
@@ -660,6 +670,11 @@ PrefabInstance:
     - target: {fileID: 9000161214157580532, guid: 9157802565ffb514982af3470c9a092a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9000161214157585905, guid: 9157802565ffb514982af3470c9a092a,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -930,6 +945,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 338040316010359268, guid: 73a6263a4a298f14886d6654fb669679,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 338040316010362419, guid: 73a6263a4a298f14886d6654fb669679,
         type: 3}
       propertyPath: m_Name
@@ -1187,6 +1207,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1447817774}
     m_Modifications:
+    - target: {fileID: 669866295559979409, guid: 8ef099167663c3c45912a9791c1e8036,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 669866295559984413, guid: 8ef099167663c3c45912a9791c1e8036,
         type: 3}
       propertyPath: m_RootOrder
@@ -1345,6 +1370,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1447817774}
     m_Modifications:
+    - target: {fileID: 1747193975564976350, guid: 314def312e0c3bb48a34d47ef60ccc0f,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1747193975564981959, guid: 314def312e0c3bb48a34d47ef60ccc0f,
         type: 3}
       propertyPath: m_RootOrder
@@ -1526,6 +1556,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1447817774}
     m_Modifications:
+    - target: {fileID: 5721775697409392970, guid: 31720ee58f6674145b3d1b10265af33a,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5721775697409398263, guid: 31720ee58f6674145b3d1b10265af33a,
         type: 3}
       propertyPath: m_Name
@@ -1612,6 +1647,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1447817774}
     m_Modifications:
+    - target: {fileID: 7974126640631695668, guid: 19d39096f69eaa140abe21e286a24b52,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7974126640631699383, guid: 19d39096f69eaa140abe21e286a24b52,
         type: 3}
       propertyPath: m_Name
@@ -1727,7 +1767,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1877,6 +1917,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929001540893958045, guid: b17c358c37153fb47a8dee343e0e6b95,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b17c358c37153fb47a8dee343e0e6b95, type: 3}
@@ -2177,6 +2222,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1447817774}
     m_Modifications:
+    - target: {fileID: 6710257774902126256, guid: 92914ea0521a5b74fbb9a5ec772dc83f,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6710257774902130482, guid: 92914ea0521a5b74fbb9a5ec772dc83f,
         type: 3}
       propertyPath: m_Name
@@ -2258,6 +2308,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1447817774}
     m_Modifications:
+    - target: {fileID: 1977227423200095552, guid: 9dea691976790954d9050da2202854ae,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1977227423200096314, guid: 9dea691976790954d9050da2202854ae,
         type: 3}
       propertyPath: m_RootOrder
@@ -2555,7 +2610,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1546635217
 Light:
   m_ObjectHideFlags: 0
@@ -3001,6 +3056,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2863453053727194517, guid: 27f1c3287637f954bbfcb38082b20b5b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27f1c3287637f954bbfcb38082b20b5b, type: 3}
 --- !u!4 &1694997341 stripped
@@ -3081,6 +3141,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Highway Patch 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1157129907112933321, guid: b338fd4ca53c7e742b81a44ace0dac97,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b338fd4ca53c7e742b81a44ace0dac97, type: 3}
