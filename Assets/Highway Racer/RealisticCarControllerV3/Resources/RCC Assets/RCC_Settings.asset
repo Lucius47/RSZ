@@ -109,8 +109,8 @@ MonoBehaviour:
   uiType: 0
   useTelemetry: 0
   mobileController: 0
-  mobileControllerEnabled: 0
-  UIButtonSensitivity: 10
+  mobileControllerEnabled: 1
+  UIButtonSensitivity: 20
   UIButtonGravity: 10
   gyroSensitivity: 4
   useLightsAsVertexLights: 1
@@ -177,9 +177,9 @@ MonoBehaviour:
   maxBrakeSoundVolume: 0.5
   foldGeneralSettings: 1
   foldBehaviorSettings: 0
-  foldControllerSettings: 0
+  foldControllerSettings: 1
   foldUISettings: 0
   foldWheelPhysics: 0
   foldSFX: 0
-  foldOptimization: 0
-  foldTagsAndLayers: 0
+  foldOptimization: 1
+  foldTagsAndLayers: 1

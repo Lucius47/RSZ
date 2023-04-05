@@ -57,6 +57,11 @@ public class ChallengeModeController : MonoBehaviour
 
     private void Awake()
     {
+        if (GameState.SelectedGameMode != GameState.GameMode.Challenges)
+        {
+            enabled = false;
+        }
+        
     #if !UNITY_EDITOR
             testMode = false;
     #endif
