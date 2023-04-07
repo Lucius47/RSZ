@@ -98,7 +98,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 0690eb72d9d43d746b6394a04bd21119,
+    type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 1c9ce36c84080644bb4284e07f8dbfd0,
     type: 2}
 --- !u!196 &5
@@ -1315,115 +1316,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 389411920}
   m_CullTransparentMesh: 0
---- !u!1001 &398030011
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8983884986012714969, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.17338228
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.010369182
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -37.852406
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8199005351108037487, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -7730075261853647636, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -3967322923135906127, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -1674604541454806998, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 768863473934787511, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_Name
-      value: Alfa Romeo Stardale 1967
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3155145510114381553, guid: 7e5e1dec9edd6694bbaca2ba5432c740,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7e5e1dec9edd6694bbaca2ba5432c740, type: 3}
 --- !u!1 &440977023
 GameObject:
   m_ObjectHideFlags: 0
@@ -9572,7 +9464,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1431658668
 Transform:
   m_ObjectHideFlags: 0
@@ -15330,6 +15222,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8767691453586126260, guid: 3a7cc9b5059128a4e8adb99c114e29ba,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9063509096646161918, guid: 3a7cc9b5059128a4e8adb99c114e29ba,
         type: 3}

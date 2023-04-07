@@ -31,13 +31,13 @@ MonoBehaviour:
     maxBraking: 4
     unlocked: 1
     price: 0
-  - vehicleName: Modified
-    playerCar: {fileID: 6171309206475947856, guid: a7ac29648089bde449f912a3c4af594a,
+  - vehicleName: Alfa Romeo Stardale 1967
+    playerCar: {fileID: 3670145196969986752, guid: cab6a8e91c0906c40b03e6ef79cb1df0,
       type: 3}
     maxSpeed: 200
     maxHandling: 4
     maxBraking: 4
-    unlocked: 0
+    unlocked: 1
     price: 25000
   - vehicleName: Muscle
     playerCar: {fileID: 4512632341101837302, guid: 687877e5b8c2cf241b222e380d440d7f,
