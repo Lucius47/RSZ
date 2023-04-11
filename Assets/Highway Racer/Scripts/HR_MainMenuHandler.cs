@@ -38,7 +38,6 @@ public class HR_MainMenuHandler : MonoBehaviour
     public GameObject modsSelectionMenu;
     public GameObject cm_LevelSelectionMenu;
     public GameObject sceneSelectionMenu;
-    public GameObject creditsMenu;
 
     [Header("UI Loading Section")]
     public GameObject loadingScreen;
@@ -244,7 +243,6 @@ public class HR_MainMenuHandler : MonoBehaviour
         modsSelectionMenu.SetActive(false);
         cm_LevelSelectionMenu.SetActive(false);
         sceneSelectionMenu.SetActive(false);
-        creditsMenu.SetActive(false);
         loadingScreen.SetActive(false);
 
         activeMenu.SetActive(true);
