@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
-using Sirenix.OdinInspector;
+// using Sirenix.OdinInspector;
 using TMPro;
 
 /// <summary>
@@ -47,7 +47,7 @@ public class ChallengeModeController : MonoBehaviour
 
     [Space] [Header("For Testing")]
     [SerializeField] private bool testMode;
-    [ShowIf("testMode")]
+    // [ShowIf("testMode")]
     [Range(1, 10)]
     [SerializeField] private int testLevelNumber;
     

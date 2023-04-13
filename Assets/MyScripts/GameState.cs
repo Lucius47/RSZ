@@ -2,7 +2,12 @@ using UnityEngine;
 
 public static class GameState
 {
-    // public static int SelectedModeIndex = 0;
+    public static bool IsFirstSession
+    {
+        get => PlayerPrefs.GetInt("IsFirstSession", 1) == 1;
+        set => PlayerPrefs.SetInt("IsFirstSession", value ? 1 : 0);
+    }
+    
     internal static GameMode SelectedGameMode;
     
     public static TrafficMode SelectedTrafficMode = TrafficMode.OneWay;

@@ -1,0 +1,11 @@
+﻿{
+  "name": "LunarConsoleEditor",
+  "references": [
+    "LunarConsole",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

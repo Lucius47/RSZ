@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/HighwayMainMenu.unity
+    path: Assets/Scenes/SplashScreen.unity
+    guid: 9fd5f392c89cf554c8ec764da7fd0f3a
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
     guid: 891bd0ce9a4102742b289f58c8753db6
   - enabled: 0
     path: Assets/Scenes/HighwaySunny.unity

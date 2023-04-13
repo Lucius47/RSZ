@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using Sirenix.OdinInspector;
+// using Sirenix.OdinInspector;
 
 [System.Serializable]
 [CreateAssetMenu(menuName = "Levels", fileName = "Challenge Mode Levels")]
@@ -26,22 +26,22 @@ public class ChallengeModeLevels : ScriptableObject
         public GameState.TrafficMode trafficMode;
         public GameState.Environment environment;
 
-        [ShowIf(nameof(ShowDistance))]
+        // [ShowIf(nameof(ShowDistance))]
         public float distance;
         
-        [ShowIf(nameof(ShowTime))]
+        // [ShowIf(nameof(ShowTime))]
         public float time;
         
-        [ShowIf(nameof(ShowScore))]
+        // [ShowIf(nameof(ShowScore))]
         public float score;
 
-        [ShowIf(nameof(ShowSpeed))]
+        // [ShowIf(nameof(ShowSpeed))]
         public float speedToMaintain;
 
-        [ShowIf(nameof(ShowNearMisses))]
+        // [ShowIf(nameof(ShowNearMisses))]
         public int nearMisses;
 
-        [ShowIf(nameof(ShowTimeToComplete))]
+        // [ShowIf(nameof(ShowTimeToComplete))]
         public float timeToCompleteChallenge;
 
         public bool HasTimeLimit => ShowTimeToComplete();
