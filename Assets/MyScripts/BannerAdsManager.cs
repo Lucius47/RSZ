@@ -4,30 +4,14 @@ using GoogleMobileAds.Api;
 
 public class BannerAdsManager : GenericSingleton<BannerAdsManager>
 {
-    #region Fields
-
     #region Admob Top Right Banner Ad
 
     [Header("Admob Top Right Banner Ad")] [SerializeField]
-    private string topRightBannerAdAndroidID;
+    private string smallBannerAdUnitId = "ca-app-pub-3940256099942544/6300978111";
 
-    private BannerView _topRightMainMenuBannerAd;
+    private BannerView _smallBannerView;
 
     private bool _isMainMenuBannerAdLoaded;
-
-    #endregion
-    
-
-    #region Admob Top Right Medium Rectangle Ad
-
-    [Header("Top Right Medium Rectangle Ad")] [SerializeField]
-    private string topRightMediumRectangleAdAndroidID;
-
-    private BannerView _topRightRectBannerAd;
-
-    private bool _isMediumRectangleAdLoaded;
-
-    #endregion
 
     #endregion
 
@@ -35,11 +19,9 @@ public class BannerAdsManager : GenericSingleton<BannerAdsManager>
 
     public void Initialize()
     {
-        InitializeAdmobTopRightBannerAd();
-        InitializeAdmobTopRightMediumRectangleAd();
+        CreateSmallBannerView();
 
-        HideMainMenuBannerAd();
-        HideMediumRectangleAd();
+        HideSmallBannerAd();
     }
 
     #endregion
@@ -48,41 +30,27 @@ public class BannerAdsManager : GenericSingleton<BannerAdsManager>
 
     #region Initializing
 
-    private void InitializeAdmobTopRightBannerAd()
+    private void CreateSmallBannerView()
     {
-#if UNITY_ANDROID || UNITY_EDITOR
-        string adUnitID = topRightBannerAdAndroidID;
-#endif
+        Debug.Log("Creating small banner view");
 
-        _topRightMainMenuBannerAd = new BannerView(adUnitID, AdSize.Banner, AdPosition.TopRight);
-        
-        _topRightMainMenuBannerAd.OnBannerAdLoaded += HandleMainMenuBannerOnAdLoaded;
-        _topRightMainMenuBannerAd.OnBannerAdLoadFailed += HandleMainMenuBannerOnAdFailedToLoad;
+        // If we already have a banner, destroy the old one.
+        if (_smallBannerView != null)
+        {
+            DestroySmallBannerAd();
+        }
 
-        // _topRightMainMenuBannerAd.OnBannerAdLoaded += () => { };
+        // Create a 320x50 banner at top of the screen
+        _smallBannerView = new BannerView(smallBannerAdUnitId, AdSize.Banner, AdPosition.Top);
 
-        RequestMainMenuBannerAd();
-    }
-
-    private void InitializeAdmobTopRightMediumRectangleAd()
-    {
-#if UNITY_ANDROID || UNITY_EDITOR
-        string adUnitID = topRightMediumRectangleAdAndroidID;
-#endif
-
-        _topRightRectBannerAd = new BannerView(adUnitID, AdSize.MediumRectangle, AdPosition.TopRight);
-
-        _topRightRectBannerAd.OnBannerAdLoaded += HandleRectBannerOnAdLoaded;
-        _topRightRectBannerAd.OnBannerAdLoadFailed += HandleRectBannerOnAdFailedToLoad;
-
-        RequestRectBannerAd();
+        ListenToSmallBannerAdEvents();
     }
 
     #endregion
 
     #region Requesting
 
-    private void RequestMainMenuBannerAd()
+    private void LoadSmallBannerAd()
     {
         if (!AdsManager.HasInternet)
         {
@@ -91,74 +59,59 @@ public class BannerAdsManager : GenericSingleton<BannerAdsManager>
             return;
         }
 
-        AdRequest request = new AdRequest.Builder().Build();
-        _topRightMainMenuBannerAd.LoadAd(request);
-        Debug.Log("Admob MainMenu Banner Ad requested");
-    }
-    
-
-    private void RequestRectBannerAd()
-    {
-        if (!AdsManager.HasInternet)
+        
+        if(_smallBannerView == null)
         {
-            _isMediumRectangleAdLoaded = false;
-            Debug.Log("Admob Rectangle Ad failed to load: No Internet");
-            return;
+            CreateSmallBannerView();
         }
+        
+        var adRequest = new AdRequest.Builder()
+            .AddKeyword("unity-admob-sample")
+            .Build();
+        
+        Debug.Log("Loading banner ad.");
+        _smallBannerView.LoadAd(adRequest);
+    }
 
-        AdRequest request = new AdRequest.Builder().Build();
-        _topRightRectBannerAd.LoadAd(request);
-        Debug.Log("Admob Rectangle Ad requested");
+    private void DestroySmallBannerAd()
+    {
+        if (_smallBannerView != null)
+        {
+            Debug.Log("Destroying banner ad.");
+            _smallBannerView.Destroy();
+            _smallBannerView = null;
+        }
     }
 
     #endregion
 
     #region Admob Banner Ad Callbacks
 
-    private void HandleMainMenuBannerOnAdLoaded()
+    private void ListenToSmallBannerAdEvents()
     {
-        _isMainMenuBannerAdLoaded = true;
-        Debug.Log("Admob MainMenu Banner Ad Loaded");
-    }
-
-    private void HandleMainMenuBannerOnAdFailedToLoad(LoadAdError error)
-    {
-        _isMainMenuBannerAdLoaded = false;
-        Debug.LogError("Small Banner view failed to load an ad with error : "
-                       + error);
-    }
-
-    #endregion
-
-    #region Admob Gameplay Top Right Banner Ad Callbacks
-
-    private void HandleGameplayBannerOnAdLoaded(object sender, EventArgs args)
-    {
-        IsGameplayBannerAdLoaded = true;
-        Debug.Log("Admob Gameplay Banner Ad Loaded");
-    }
-
-    private void HandleGameplayBannerOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)
-    {
-        IsGameplayBannerAdLoaded = false;
-        Debug.Log("Admob Gameplay Banner Ad Failed To Load with message: " + args.LoadAdError.GetMessage());
-    }
-
-    #endregion
-
-    #region Admob Medium Rectangle Ad Callbacks
-
-    private void HandleRectBannerOnAdLoaded()
-    {
-        _isMediumRectangleAdLoaded = true;
-        Debug.Log("Admob Rectangle Ad Loaded");
-    }
-
-    private void HandleRectBannerOnAdFailedToLoad(LoadAdError error)
-    {
-        _isMediumRectangleAdLoaded = false;
-        Debug.LogError("Medium Rect Banner view failed to load an ad with error : "
-                       + error);
+        // Raised when an ad is loaded into the banner view.
+        _smallBannerView.OnBannerAdLoaded += () =>
+        {
+            _isMainMenuBannerAdLoaded = true;
+            
+            Debug.Log("Banner view loaded an ad with response : "
+                      + _smallBannerView.GetResponseInfo());
+        };
+        // Raised when an ad fails to load into the banner view.
+        _smallBannerView.OnBannerAdLoadFailed += error =>
+        {
+            _isMainMenuBannerAdLoaded = false;
+            
+            Debug.LogError("Banner view failed to load an ad with error : "
+                           + error);
+        };
+        // Raised when the ad is estimated to have earned money.
+        _smallBannerView.OnAdPaid += adValue =>
+        {
+            Debug.Log(String.Format("Banner view paid {0} {1}.",
+                adValue.Value,
+                adValue.CurrencyCode));
+        };
     }
 
     #endregion
@@ -167,53 +120,33 @@ public class BannerAdsManager : GenericSingleton<BannerAdsManager>
 
     #region Public Methods
 
-    public void ShowMainMenuBannerAd()
+    public void ShowSmallBannerAd()
     {
         if (!_isMainMenuBannerAdLoaded)
         {
-            RequestMainMenuBannerAd();
+            LoadSmallBannerAd();
         }
 
-        HideMediumRectangleAd();
-        _topRightMainMenuBannerAd.Show();
+        // HideMediumRectangleAd();
+        _smallBannerView.Show();
         
         _isMainMenuBannerAdShown = true;
     }
 
-    public void HideMainMenuBannerAd()
+    public void HideSmallBannerAd()
     {
-        _topRightMainMenuBannerAd?.Hide();
+        _smallBannerView?.Hide();
         
         _isMainMenuBannerAdShown = false;
-    }
-
-    public void ShowRectBannerAd()
-    {
-        if (!_isMediumRectangleAdLoaded)
-        {
-            RequestRectBannerAd();
-        }
-
-        HideMainMenuBannerAd();
-        _topRightRectBannerAd.Show();
-
-        _isRectBannerAdShown = true;
-    }
-
-    public void HideMediumRectangleAd()
-    {
-        _topRightRectBannerAd?.Hide();
-        
-        _isRectBannerAdShown = false;
     }
 
     public void HideAllAds()
     {
-        _topRightMainMenuBannerAd?.Hide();
-        _topRightRectBannerAd?.Hide();
+        _smallBannerView?.Hide();
+        // _topRightRectBannerAd?.Hide();
         
         _isMainMenuBannerAdShown = false;
-        _isRectBannerAdShown = false;
+        // _isRectBannerAdShown = false;
     }
     
     
@@ -223,30 +156,24 @@ public class BannerAdsManager : GenericSingleton<BannerAdsManager>
     // Example usage: Hiding all banners while displaying video ads and then restoring the banners
     // after the video ad is complete.
     private bool _isMainMenuBannerAdShown = false;
-    private bool _isRectBannerAdShown = false;
+    // private bool _isRectBannerAdShown = false;
 
     private bool _wasMainMenuBannerAdPreviouslyShown;
-    private bool _wasRectBannerAdPreviouslyShown;
+    // private bool _wasRectBannerAdPreviouslyShown;
     
     public void HideAllWithBackup()
     {
         _wasMainMenuBannerAdPreviouslyShown = _isMainMenuBannerAdShown;
-        _wasRectBannerAdPreviouslyShown = _isRectBannerAdShown;
+        // _wasRectBannerAdPreviouslyShown = _isRectBannerAdShown;
 
         HideAllAds();
     }
 
     public void RestoreAllAds()
     {
-        if (_wasMainMenuBannerAdPreviouslyShown) ShowMainMenuBannerAd();
-        if (_wasRectBannerAdPreviouslyShown) ShowRectBannerAd();
+        if (_wasMainMenuBannerAdPreviouslyShown) ShowSmallBannerAd();
+        // if (_wasRectBannerAdPreviouslyShown) ShowRectBannerAd();
     }
-
-    #endregion
-
-    #region Properties
-
-    public bool IsGameplayBannerAdLoaded { get; private set; }
 
     #endregion
 }

@@ -10,6 +10,6 @@ public class SplashManager : MonoBehaviour
 
         // init firebase
         await Task.Delay(1000);
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync("MainMenu");
     }
 }

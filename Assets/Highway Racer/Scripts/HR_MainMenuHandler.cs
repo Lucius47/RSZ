@@ -251,11 +251,11 @@ public class HR_MainMenuHandler : MonoBehaviour
             BestScores();
     }
     
-    public void SelectScene(int levelIndex)
+    public void SelectScene(string sceneName/*int levelIndex*/)
     {
         SelectCar();
         EnableMenu(loadingScreen);
-        _async = SceneManager.LoadSceneAsync(levelIndex);
+        _async = SceneManager.LoadSceneAsync(sceneName);
     }
 
     /// <summary>
@@ -302,7 +302,7 @@ public class HR_MainMenuHandler : MonoBehaviour
     public void SelectCMLevelAndPlay(int level)
     {
         GameState.CurrentCMLevel = level;
-        SelectScene(1);
+        SelectScene("Highway");
     }
 
     public void SelectTrafficMode(int mode)

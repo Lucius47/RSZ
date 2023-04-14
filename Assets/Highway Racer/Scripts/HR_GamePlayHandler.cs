@@ -224,7 +224,7 @@ public class HR_GamePlayHandler : MonoBehaviour
     
     public void MainMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("MainMenu");
     }
     
     public void RestartGame()

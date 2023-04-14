@@ -2631,34 +2631,32 @@ struct HR_MainMenuHandler_t79232E4C134636622C349B2D7A8073E791B16AF8  : public Mo
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cm_LevelSelectionMenu_13;
 	// UnityEngine.GameObject HR_MainMenuHandler::sceneSelectionMenu
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___sceneSelectionMenu_14;
-	// UnityEngine.GameObject HR_MainMenuHandler::creditsMenu
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___creditsMenu_15;
 	// UnityEngine.GameObject HR_MainMenuHandler::loadingScreen
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___loadingScreen_16;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___loadingScreen_15;
 	// UnityEngine.UI.Slider HR_MainMenuHandler::loadingBar
-	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___loadingBar_17;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___loadingBar_16;
 	// UnityEngine.AsyncOperation HR_MainMenuHandler::_async
-	AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* ____async_18;
+	AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* ____async_17;
 	// UnityEngine.UI.Text HR_MainMenuHandler::currency
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___currency_19;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___currency_18;
 	// UnityEngine.GameObject HR_MainMenuHandler::buyCarButton
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___buyCarButton_20;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___buyCarButton_19;
 	// UnityEngine.GameObject HR_MainMenuHandler::selectCarButton
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___selectCarButton_21;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___selectCarButton_20;
 	// UnityEngine.GameObject HR_MainMenuHandler::modCarPanel
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modCarPanel_22;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modCarPanel_21;
 	// UnityEngine.UI.Text HR_MainMenuHandler::vehicleNameText
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___vehicleNameText_23;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___vehicleNameText_22;
 	// UnityEngine.UI.Text HR_MainMenuHandler::bestScoreOneWay
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreOneWay_24;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreOneWay_23;
 	// UnityEngine.UI.Text HR_MainMenuHandler::bestScoreTwoWay
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreTwoWay_25;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreTwoWay_24;
 	// UnityEngine.UI.Text HR_MainMenuHandler::bestScoreTimeLeft
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreTimeLeft_26;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreTimeLeft_25;
 	// UnityEngine.UI.Text HR_MainMenuHandler::bestScoreBomb
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreBomb_27;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreBomb_26;
 	// UnityEngine.AudioSource HR_MainMenuHandler::MainMenuSoundtrack
-	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___MainMenuSoundtrack_28;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___MainMenuSoundtrack_27;
 };
 
 // HR_ModApplier
@@ -11517,10 +11515,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_Awake_m38A356658DBF48
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_13 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_14;
 		L_14 = HR_CreateAudioSource_NewAudioSource_mD556A8B3CD28BE3A61C8EA046A1FAE9B6626D203(L_5, _stringLiteralDCCC801D5C0F6D0B35F8C81685497A7EFC2F3DD2, (0.0f), (0.0f), L_6, L_13, (bool)1, (bool)1, (bool)0, NULL);
-		__this->___MainMenuSoundtrack_28 = L_14;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___MainMenuSoundtrack_28), (void*)L_14);
+		__this->___MainMenuSoundtrack_27 = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___MainMenuSoundtrack_27), (void*)L_14);
 		// MainMenuSoundtrack.ignoreListenerPause = true;
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_15 = __this->___MainMenuSoundtrack_28;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_15 = __this->___MainMenuSoundtrack_27;
 		NullCheck(L_15);
 		AudioSource_set_ignoreListenerPause_m1BC14FA0984DEDF62E1CDBAB323950100A0BF2B4(L_15, (bool)1, NULL);
 	}
@@ -11572,7 +11570,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_Update_mB2F98D8AC72DB
 	AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* V_1 = NULL;
 	{
 		// currency.text = HR_API.GetCurrency().ToString("F0");
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___currency_19;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___currency_18;
 		int32_t L_1;
 		L_1 = HR_API_GetCurrency_m7B00307D844E09D0D5756947525748CDDE24A71F(NULL);
 		V_0 = L_1;
@@ -11581,7 +11579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_Update_mB2F98D8AC72DB
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_2);
 		// if (_async is { isDone: false }) // _async != null && !_async.isDone
-		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_3 = __this->____async_18;
+		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_3 = __this->____async_17;
 		V_1 = L_3;
 		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_4 = V_1;
 		if (!L_4)
@@ -11601,8 +11599,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_Update_mB2F98D8AC72DB
 	}
 	{
 		// loadingBar.value = _async.progress;
-		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_7 = __this->___loadingBar_17;
-		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_8 = __this->____async_18;
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_7 = __this->___loadingBar_16;
+		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_8 = __this->____async_17;
 		NullCheck(L_8);
 		float L_9;
 		L_9 = AsyncOperation_get_progress_mF3B2837C1A5DDF3C2F7A3BA1E449DD4C71C632EE(L_8, NULL);
@@ -11794,7 +11792,7 @@ IL_003c:
 	}
 	{
 		// if (buyCarButton.GetComponentInChildren<Text>())
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___buyCarButton_20;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___buyCarButton_19;
 		NullCheck(L_15);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_16;
 		L_16 = GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13(L_15, GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13_RuntimeMethod_var);
@@ -11808,7 +11806,7 @@ IL_003c:
 	}
 	{
 		// buyCarButton.GetComponentInChildren<Text>().text = "";
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___buyCarButton_20;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___buyCarButton_19;
 		NullCheck(L_18);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19;
 		L_19 = GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13(L_18, GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13_RuntimeMethod_var);
@@ -11819,15 +11817,15 @@ IL_003c:
 IL_0070:
 	{
 		// buyCarButton.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___buyCarButton_20;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___buyCarButton_19;
 		NullCheck(L_20);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, (bool)0, NULL);
 		// selectCarButton.SetActive(true);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___selectCarButton_21;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___selectCarButton_20;
 		NullCheck(L_21);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)1, NULL);
 		// modCarPanel.SetActive(true);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___modCarPanel_22;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___modCarPanel_21;
 		NullCheck(L_22);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_22, (bool)1, NULL);
 		goto IL_0106;
@@ -11836,7 +11834,7 @@ IL_0070:
 IL_0096:
 	{
 		// if (buyCarButton.GetComponentInChildren<Text>())
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___buyCarButton_20;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___buyCarButton_19;
 		NullCheck(L_23);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_24;
 		L_24 = GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13(L_23, GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13_RuntimeMethod_var);
@@ -11851,7 +11849,7 @@ IL_0096:
 	{
 		// buyCarButton.GetComponentInChildren<Text>().text =
 		//     "BUY FOR\n" + HR_PlayerCars.Instance.cars[CarIndex].price.ToString("F0");
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = __this->___buyCarButton_20;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = __this->___buyCarButton_19;
 		NullCheck(L_26);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_27;
 		L_27 = GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13(L_26, GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13_RuntimeMethod_var);
@@ -11876,15 +11874,15 @@ IL_0096:
 IL_00e2:
 	{
 		// selectCarButton.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = __this->___selectCarButton_21;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = __this->___selectCarButton_20;
 		NullCheck(L_36);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_36, (bool)0, NULL);
 		// buyCarButton.SetActive(true);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = __this->___buyCarButton_20;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = __this->___buyCarButton_19;
 		NullCheck(L_37);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_37, (bool)1, NULL);
 		// modCarPanel.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38 = __this->___modCarPanel_22;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38 = __this->___modCarPanel_21;
 		NullCheck(L_38);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_38, (bool)0, NULL);
 	}
@@ -11999,7 +11997,7 @@ IL_0165:
 		__this->___currentApplier_8 = L_75;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentApplier_8), (void*)L_75);
 		// if (vehicleNameText)
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_76 = __this->___vehicleNameText_23;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_76 = __this->___vehicleNameText_22;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_77;
 		L_77 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_76, NULL);
@@ -12010,7 +12008,7 @@ IL_0165:
 	}
 	{
 		// vehicleNameText.text = HR_PlayerCars.Instance.cars[CarIndex].vehicleName;
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_78 = __this->___vehicleNameText_23;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_78 = __this->___vehicleNameText_22;
 		HR_PlayerCars_t437F99A1E32ED01302579586325D7BDF7EACB0D8* L_79;
 		L_79 = HR_PlayerCars_get_Instance_m86F82EC47D71B44F8C0216B96009EE93D5395620(NULL);
 		NullCheck(L_79);
@@ -12249,27 +12247,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_EnableMenu_mCFB8E45A8
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___sceneSelectionMenu_14;
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
-		// creditsMenu.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___creditsMenu_15;
+		// loadingScreen.SetActive(false);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___loadingScreen_15;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-		// loadingScreen.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___loadingScreen_16;
-		NullCheck(L_6);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
 		// activeMenu.SetActive(true);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = ___0_activeMenu;
-		NullCheck(L_7);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = ___0_activeMenu;
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
 		// if (activeMenu == modsSelectionMenu)
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = ___0_activeMenu;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___modsSelectionMenu_12;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = ___0_activeMenu;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___modsSelectionMenu_12;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_10;
-		L_10 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_8, L_9, NULL);
-		if (!L_10)
+		bool L_9;
+		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_7, L_8, NULL);
+		if (!L_9)
 		{
-			goto IL_006f;
+			goto IL_0063;
 		}
 	}
 	{
@@ -12277,7 +12271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_EnableMenu_mCFB8E45A8
 		HR_MainMenuHandler_BestScores_m4E8E7F5C5C1F08E0E3294EF082131A83B82B5638(__this, NULL);
 	}
 
-IL_006f:
+IL_0063:
 	{
 		// }
 		return;
@@ -12296,15 +12290,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_SelectScene_m1FD7EAC8
 		// SelectCar();
 		HR_MainMenuHandler_SelectCar_m9A363E9430E98F30257FD7434A09D9E5F61BFB1D(__this, NULL);
 		// EnableMenu(loadingScreen);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___loadingScreen_16;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___loadingScreen_15;
 		HR_MainMenuHandler_EnableMenu_mCFB8E45A8F6BE59FE91A940A8F0E31DE8790C359(__this, L_0, NULL);
 		// _async = SceneManager.LoadSceneAsync(levelIndex);
 		int32_t L_1 = ___0_levelIndex;
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_2;
 		L_2 = SceneManager_LoadSceneAsync_mA3C1B55E83225487A615436731B82087D77D4935(L_1, NULL);
-		__this->____async_18 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____async_18), (void*)L_2);
+		__this->____async_17 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____async_17), (void*)L_2);
 		// }
 		return;
 	}
@@ -12489,7 +12483,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_BestScores_m4E8E7F5C5
 		L_0 = HR_API_GetHighScores_mF43FC00F82320E507E125CB10C93DCB004ED1DDC(NULL);
 		V_0 = L_0;
 		// bestScoreOneWay.text = "BEST SCORE\n" + scores[0];
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = __this->___bestScoreOneWay_24;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = __this->___bestScoreOneWay_23;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = V_0;
 		NullCheck(L_2);
 		String_t* L_3;
@@ -12499,7 +12493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_BestScores_m4E8E7F5C5
 		NullCheck(L_1);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_1, L_4);
 		// bestScoreTwoWay.text = "BEST SCORE\n" + scores[1];
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5 = __this->___bestScoreTwoWay_25;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5 = __this->___bestScoreTwoWay_24;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = V_0;
 		NullCheck(L_6);
 		String_t* L_7;
@@ -12509,7 +12503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_BestScores_m4E8E7F5C5
 		NullCheck(L_5);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_5, L_8);
 		// bestScoreTimeLeft.text = "BEST SCORE\n" + scores[2];
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = __this->___bestScoreTimeLeft_26;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = __this->___bestScoreTimeLeft_25;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = V_0;
 		NullCheck(L_10);
 		String_t* L_11;
@@ -12519,7 +12513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_BestScores_m4E8E7F5C5
 		NullCheck(L_9);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_9, L_12);
 		// bestScoreBomb.text = "BEST SCORE\n" + scores[3];
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___bestScoreBomb_27;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___bestScoreBomb_26;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_14 = V_0;
 		NullCheck(L_14);
 		String_t* L_15;
@@ -16367,7 +16361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_QualitySettingsApplier_Check_m21499FA
 		HR_MainMenuHandler_t79232E4C134636622C349B2D7A8073E791B16AF8* L_6;
 		L_6 = HR_MainMenuHandler_get_Instance_m5FC80002D623D2A582FF7BE901593B065731E931(NULL);
 		NullCheck(L_6);
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = L_6->___MainMenuSoundtrack_28;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = L_6->___MainMenuSoundtrack_27;
 		float L_8;
 		L_8 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteralB5793A0486CA0270FF49AD51E2176B4E15A6F700, (0.349999994f), NULL);
 		NullCheck(L_7);

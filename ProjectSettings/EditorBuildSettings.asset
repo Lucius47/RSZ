@@ -12,18 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 891bd0ce9a4102742b289f58c8753db6
   - enabled: 0
-    path: Assets/Scenes/HighwaySunny.unity
-    guid: e782fc90b8a83a4499fec195e7b9d3fa
-  - enabled: 0
     path: Assets/Scenes/HighwayNight.unity
     guid: 21e8f7e0027e0244a955a195b6bf757e
   - enabled: 0
     path: Assets/Scenes/HighwayRainy.unity
     guid: 22c937ede75f7b6418d6779885986081
   - enabled: 1
-    path: Assets/Scenes/ChallengesMode.unity
+    path: Assets/Scenes/Highway.unity
     guid: 2ed76c62478b72f42ae18aa27f45d8f7
   - enabled: 0
     path: Assets/Scenes/HighwarCarCreateScene.unity
     guid: d2a1fbd51e4b5e94b928abbc6ef0c1d5
+  - enabled: 1
+    path: Assets/Scenes/City.unity
+    guid: 44c713d904819604ba9ed81c389fae29
   m_configObjects: {}

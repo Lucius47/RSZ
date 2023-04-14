@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_Name: T_Grass_City01
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 192
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 45
+    localAABB:
+      m_Center: {x: -0.03177261, y: 7.629395E-06, z: 0.7102228}
+      m_Extent: {x: 82.75, y: 65.87598, z: 2.351467}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 2
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer:
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 0
+    m_VertexCount: 0
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 135
+      m_Range: 165.5
+      m_Start: -82.78177
+      m_Data: fffff2e5338222e0a3663382ffff936633825ee0f2e533821ac04867338243c0f2e53382a3a02867338227a0f2e533825480be6633820c80f2e533820660b4663382f15ff2e533820d40bc663382d53ff2e53382bc1f93663382ba1ff2e533820000f2e5338200009366338289a0f74d118482c0e64dce815ee0194d8b7dffff194d33820b40244de882fa5f194d7f82ba1f194d0d810000194d33825ee0a033da7dffffa033338251c0c033b6802da0b1334f81f97fc9332b832f80824dc884f15fa733827dd63fa1337580ba1fa033a6800000a033338227a0261a338243c0261a33820c80261a3382f15f261a3382d53f261a3382ba1f261a33820000261a33825ee0261a3382ffff261a3382
+      m_BitSize: 16
+    m_UV:
+      m_NumItems: 90
+      m_Range: 8.693119
+      m_Start: -0.3549021
+      m_Data: 1440dc4182f09d0140e10982cc1d4890d2f902d11d1418d65982d51d0960dda901de1d11e8e1d980ee1dedafe22900ff1d03f8e6d97f231efabfe3f1ff679e131871bb02f9b61a487f0b00d8b7f06f837b803ab8fb3785abff3fb81cc8166d00a4d125d0199d81d9d10d601cad00bab70ca823ddff12d2f83721edfff3d11658b9de0169eb0d20bc8e80daebff6fbbae7fa7ebfc3fbaae8160eb0f40b40e
+      m_BitSize: 14
+    m_Normals:
+      m_NumItems: 90
+      m_Range: 0.2773139
+      m_Start: -0.1429532
+      m_Data: 838395415d5f83838d85838386a883837aaa8383858a83837c8983838873838383838383a971c85289440086766a7d4283709b7b61ca2aa5b88ea5625f675d865f80a56c8e8aad8088a89bcf936f55ff9bd985bd9d9c60fd8383
+      m_BitSize: 8
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 45
+      m_Data: ffffffffff1f
+      m_BitSize: 1
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 192
+      m_Data: 402004c03010013114854118c57120067224898228c9b2300ab3348dc338cd03398f0345126110d234054430519410085465298c625d0c66618ce36458e6445a4555da46711a474d53c7759324799d277dc8f57d06627cd285281fe881df758560785996188a16868de2886524d77164d999a4d979de699e1e08a2270a86618aa6a128aaa92a8e5ab9ae9bb6ad6ca971
+      m_BitSize: 6
+    m_UVInfo: 5
+  m_LocalAABB:
+    m_Center: {x: -0.03177261, y: 7.629395E-06, z: 0.7102228}
+    m_Extent: {x: 82.75, y: 65.87598, z: 2.351467}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshOptimized: 1

@@ -6,12 +6,12 @@ public class MainMenuAds : MonoBehaviour
 {
     public void ShowBanner()
     {
-        BannerAdsManager.Instance.ShowMainMenuBannerAd();
+        BannerAdsManager.Instance.ShowSmallBannerAd();
     }
     
     public void HideBanner()
     {
-        BannerAdsManager.Instance.HideMainMenuBannerAd();
+        BannerAdsManager.Instance.HideSmallBannerAd();
     }
 
     public void ShowInt()

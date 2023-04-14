@@ -2629,34 +2629,32 @@ struct HR_MainMenuHandler_t79232E4C134636622C349B2D7A8073E791B16AF8  : public Mo
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cm_LevelSelectionMenu_13;
 	// UnityEngine.GameObject HR_MainMenuHandler::sceneSelectionMenu
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___sceneSelectionMenu_14;
-	// UnityEngine.GameObject HR_MainMenuHandler::creditsMenu
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___creditsMenu_15;
 	// UnityEngine.GameObject HR_MainMenuHandler::loadingScreen
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___loadingScreen_16;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___loadingScreen_15;
 	// UnityEngine.UI.Slider HR_MainMenuHandler::loadingBar
-	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___loadingBar_17;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___loadingBar_16;
 	// UnityEngine.AsyncOperation HR_MainMenuHandler::_async
-	AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* ____async_18;
+	AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* ____async_17;
 	// UnityEngine.UI.Text HR_MainMenuHandler::currency
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___currency_19;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___currency_18;
 	// UnityEngine.GameObject HR_MainMenuHandler::buyCarButton
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___buyCarButton_20;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___buyCarButton_19;
 	// UnityEngine.GameObject HR_MainMenuHandler::selectCarButton
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___selectCarButton_21;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___selectCarButton_20;
 	// UnityEngine.GameObject HR_MainMenuHandler::modCarPanel
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modCarPanel_22;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modCarPanel_21;
 	// UnityEngine.UI.Text HR_MainMenuHandler::vehicleNameText
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___vehicleNameText_23;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___vehicleNameText_22;
 	// UnityEngine.UI.Text HR_MainMenuHandler::bestScoreOneWay
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreOneWay_24;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreOneWay_23;
 	// UnityEngine.UI.Text HR_MainMenuHandler::bestScoreTwoWay
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreTwoWay_25;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreTwoWay_24;
 	// UnityEngine.UI.Text HR_MainMenuHandler::bestScoreTimeLeft
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreTimeLeft_26;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreTimeLeft_25;
 	// UnityEngine.UI.Text HR_MainMenuHandler::bestScoreBomb
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreBomb_27;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___bestScoreBomb_26;
 	// UnityEngine.AudioSource HR_MainMenuHandler::MainMenuSoundtrack
-	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___MainMenuSoundtrack_28;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___MainMenuSoundtrack_27;
 };
 
 // RCC_Camera
