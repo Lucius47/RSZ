@@ -8748,6 +8748,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_CarCamera_OnDisable_m17202B5178DD1D0B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_CarCamera__ctor_m8A7CD67A5EA4A6405BFC3753F66DF3BA0869D6D1 (HR_CarCamera_t53891ACE7D15DBD18B50E2D65BB07FB03ECD03D7* __this, const RuntimeMethod* method) 
 {
 	{
+		// internal int cameraSwitchCount = 1; //  Current camera mode as int.
+		__this->___cameraSwitchCount_6 = 1;
 		// private float targetFieldOfView = 50f;      //  Field of the camera will be adapted to this value.
 		__this->___targetFieldOfView_8 = (50.0f);
 		// public float topFOV = 48f;      //  FOV for top mode.
@@ -10019,9 +10021,9 @@ IL_009e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_GamePlayHandler_Start_mB6238F5184391390962BC72131933140B7B50333 (HR_GamePlayHandler_tD702F7F0962DBFA999A3F2219CE95028861B91A8* __this, const RuntimeMethod* method) 
 {
 	{
-		// SpawnCar();     //  Spawning the player vehicle.
+		// SpawnCar();
 		HR_GamePlayHandler_SpawnCar_m2A8C6EBC549BFEC2978D9104A11911653BAACB06(__this, NULL);
-		// StartCoroutine(WaitForGameStart());     //  And wait for the countdown.
+		// StartCoroutine(WaitForGameStart());     // wait for the countdown.
 		RuntimeObject* L_0;
 		L_0 = HR_GamePlayHandler_WaitForGameStart_m751398F8CCE474053D03CF35211936884626F5AB(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
@@ -24073,7 +24075,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HR_UIDynamicScoreDisplayer_tD915B08726125B523
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// if (_instance == null) {
+		// if (_instance == null)
 		HR_UIDynamicScoreDisplayer_tD915B08726125B5237DE8B09E8C9681E37E966DD* L_0 = ((HR_UIDynamicScoreDisplayer_tD915B08726125B5237DE8B09E8C9681E37E966DD_StaticFields*)il2cpp_codegen_static_fields_for(HR_UIDynamicScoreDisplayer_tD915B08726125B5237DE8B09E8C9681E37E966DD_il2cpp_TypeInfo_var))->____instance_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -24131,7 +24133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_UIDynamicScoreDisplayer_Start_m99F3B2
 		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_3 = (TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353*)(TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353*)SZArrayNew(TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353_il2cpp_TypeInfo_var, (uint32_t)((int32_t)10));
 		__this->___scoreTexts_6 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___scoreTexts_6), (void*)L_3);
-		// for (int i = 0; i < 10; i++) {
+		// for (int i = 0; i < 10; i++)
 		V_0 = 0;
 		goto IL_00ba;
 	}
@@ -24208,14 +24210,14 @@ IL_0031:
 		L_39 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_38, NULL);
 		NullCheck(L_39);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_39, (bool)1, NULL);
-		// for (int i = 0; i < 10; i++) {
+		// for (int i = 0; i < 10; i++)
 		int32_t L_40 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_40, 1));
 	}
 
 IL_00ba:
 	{
-		// for (int i = 0; i < 10; i++) {
+		// for (int i = 0; i < 10; i++)
 		int32_t L_41 = V_0;
 		if ((((int32_t)L_41) < ((int32_t)((int32_t)10))))
 		{
@@ -24383,7 +24385,9 @@ IL_0029:
 		// timer = lifeTime;
 		float L_22 = __this->___lifeTime_8;
 		__this->___timer_9 = L_22;
-		// nearMissSound = HR_CreateAudioSource.NewAudioSource(gameObject, HR_HighwayRacerProperties.Instance.nearMissAudioClip.name, 0f, 0f, 1f, HR_HighwayRacerProperties.Instance.nearMissAudioClip, false, true, true);
+		// nearMissSound = HR_CreateAudioSource.NewAudioSource(gameObject,
+		//     HR_HighwayRacerProperties.Instance.nearMissAudioClip.name, 0f, 0f, 1f,
+		//     HR_HighwayRacerProperties.Instance.nearMissAudioClip, false, true, true);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
 		L_23 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		HR_HighwayRacerProperties_tF7FCB822E4F8DF857E8E12115574CC6EC46B3067* L_24;
@@ -24437,14 +24441,16 @@ IL_001f:
 		float L_5;
 		L_5 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_3, (0.0f), L_4, NULL);
 		__this->___timer_9 = L_5;
-		// for (int i = 0; i < scoreTexts.Length; i++) {
+		// for (int i = 0; i < scoreTexts.Length; i++)
 		V_0 = 0;
 		goto IL_00ad;
 	}
 
 IL_003f:
 	{
-		// scoreTexts[i].color = Color.Lerp(scoreTexts[i].color, new Color(scoreTexts[i].color.r, scoreTexts[i].color.g, scoreTexts[i].color.b, 0f), Time.deltaTime * 10f);
+		// scoreTexts[i].color = Color.Lerp(scoreTexts[i].color,
+		//     new Color(scoreTexts[i].color.r, scoreTexts[i].color.g, scoreTexts[i].color.b, 0f),
+		//     Time.deltaTime * 10f);
 		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_6 = __this->___scoreTexts_6;
 		int32_t L_7 = V_0;
 		NullCheck(L_6);
@@ -24494,14 +24500,14 @@ IL_003f:
 		L_35 = Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline(L_14, L_33, ((float)il2cpp_codegen_multiply(L_34, (10.0f))), NULL);
 		NullCheck(L_9);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_9, L_35);
-		// for (int i = 0; i < scoreTexts.Length; i++) {
+		// for (int i = 0; i < scoreTexts.Length; i++)
 		int32_t L_36 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_36, 1));
 	}
 
 IL_00ad:
 	{
-		// for (int i = 0; i < scoreTexts.Length; i++) {
+		// for (int i = 0; i < scoreTexts.Length; i++)
 		int32_t L_37 = V_0;
 		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_38 = __this->___scoreTexts_6;
 		NullCheck(L_38);
@@ -24511,7 +24517,7 @@ IL_00ad:
 		}
 	}
 	{
-		// if (timer > 0) {
+		// if (timer > 0)
 		float L_39 = __this->___timer_9;
 		if ((!(((float)L_39) > ((float)(0.0f)))))
 		{
@@ -24519,7 +24525,8 @@ IL_00ad:
 		}
 	}
 	{
-		// scoreTexts[index].color = new Color(scoreTexts[index].color.r, scoreTexts[index].color.g, scoreTexts[index].color.b, 1f);
+		// scoreTexts[index].color = new Color(scoreTexts[index].color.r, scoreTexts[index].color.g,
+		//     scoreTexts[index].color.b, 1f);
 		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_40 = __this->___scoreTexts_6;
 		int32_t L_41 = __this->___index_7;
 		NullCheck(L_40);

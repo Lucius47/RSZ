@@ -476,8 +476,12 @@ struct PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E;
 struct PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072;
 // UnityEngine.UI.Button/ButtonClickedEvent
 struct ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C;
+// Michsky.MUIP.ButtonManager/<CheckForDoubleClick>d__87
+struct U3CCheckForDoubleClickU3Ed__87_tDBD560E6EB67C0E9166770747E44EA176D74EC01;
 // Michsky.MUIP.ButtonManager/<InitUINavigation>d__88
 struct U3CInitUINavigationU3Ed__88_tE1C78523AEBED1A2C2732BF71934A9BF6800821D;
+// Michsky.MUIP.ButtonManager/<SetDisabled>d__86
+struct U3CSetDisabledU3Ed__86_t3A97C18E27F2327DC2EB7C5565DFA887EF8D4D4E;
 // Michsky.MUIP.ButtonManager/Padding
 struct Padding_tC7B9C9F89D533F10514FF5BB39FB7145D69DE2A0;
 // UnityEngine.Camera/CameraCallback
@@ -684,6 +688,7 @@ IL2CPP_EXTERN_C RuntimeClass* WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E797363
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral000F52EA144326B86999FD7F3750005D2FEAD6E1;
 IL2CPP_EXTERN_C String_t* _stringLiteral03A926FB8820944E1CC971CDA4B1BA563C39437E;
+IL2CPP_EXTERN_C String_t* _stringLiteral07593C8A707DC509F1730A342A825559799A65E2;
 IL2CPP_EXTERN_C String_t* _stringLiteral091C64B2F9C580B34CE5FC848B1BC9CFD95AB4C3;
 IL2CPP_EXTERN_C String_t* _stringLiteral0993C31116DED8F2DAA78B6A73E3149497A84400;
 IL2CPP_EXTERN_C String_t* _stringLiteral0B6AD49F580FE9AF1DB08BFFB902FBCB36237D59;
@@ -746,6 +751,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralF04B29D7D6F9E72D3F6BD3498DFB447D6B17B490
 IL2CPP_EXTERN_C String_t* _stringLiteralF0704976B43F5B5494BC339B56557B4AEBA7C4EB;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3B6C752FECC43F3D8260290BFCB08E84FE21AD5;
 IL2CPP_EXTERN_C String_t* _stringLiteralF723E4F6C6005A4E0D56DA5C8EC9FFD0AE7FBFE4;
+IL2CPP_EXTERN_C String_t* _stringLiteralF883BCEEB83CCCC0AD363FDBF0E01C1DD0CDDD5D;
 IL2CPP_EXTERN_C String_t* _stringLiteralFBDF00C9694425CA0709EE1B65D4E484C4E2043F;
 IL2CPP_EXTERN_C String_t* _stringLiteralFF43205EC27CA9288CD9850C0355B1D6C60FB390;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m9266965D02368C3A64AED51B741DA840A0966FE3_RuntimeMethod_var;
@@ -844,6 +850,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mE11D272997FCFEA3932C7EF10D
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Resources_Load_TisIconLibrary_t2D8EA7DE0A240B88EC499737CB2242D543BDEB0D_mCF9E1E595BBD7844576FD923CA625A4E0BDEFFA6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CActiveHelperU3Ed__29_System_Collections_IEnumerator_Reset_m0F417385059D5EA7C7C33170B9827E057F4FE149_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCheckForDoubleClickU3Ed__87_System_Collections_IEnumerator_Reset_mB59B3B926D2B860A2B5ED924C145E5C48AE29383_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CDisableAnimatorU3Ed__16_System_Collections_IEnumerator_Reset_m00D79A6F755619D1129A5EB6336373E3CD3257C3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CDisableAnimatorU3Ed__40_System_Collections_IEnumerator_Reset_mDD2C65FD9A936110D278F58E33C90659DD7A1F05_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CDissolveHelperU3Ed__27_System_Collections_IEnumerator_Reset_mDA10D4D401A106B6265E1CF374D547C1734EA625_RuntimeMethod_var;
@@ -860,6 +867,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CRightCGFadeOutU3Ed__15_System_Collection
 IL2CPP_EXTERN_C const RuntimeMethod* U3CSWMHelperU3Ed__9_System_Collections_IEnumerator_Reset_mBF2734E2833489125514EF27FB618D7564BF2419_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CScrollDownHelperU3Ed__11_System_Collections_IEnumerator_Reset_m36833D871969D8F532027D9D6045C528785C0172_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CScrollUpHelperU3Ed__10_System_Collections_IEnumerator_Reset_m6FA2103D3DD05C18B08E1280701A199C95DFD934_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CSetDisabledU3Ed__86_System_Collections_IEnumerator_Reset_mA88E77CA3919B97AD03F7D9381DF8AEEA64EDE45_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CStartExpandU3Ed__73_System_Collections_IEnumerator_Reset_m45845C32EADEA300C5DFD6E481BE95D2DB2C1EFB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CStartMinimizeU3Ed__74_System_Collections_IEnumerator_Reset_mE7C3F510D4459913D7ECD27DF0A12347B7A27684_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass13_0_U3COnPopulateMeshU3Eb__0_m1EAFB1D01C4988A3DF591DB5DC4C1D97B0A6353B_RuntimeMethod_var;
@@ -1148,6 +1156,28 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinv
 // Native definition for COM marshalling of UnityEngine.YieldInstruction
 struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
 {
+};
+
+// Michsky.MUIP.ButtonManager/<CheckForDoubleClick>d__87
+struct U3CCheckForDoubleClickU3Ed__87_tDBD560E6EB67C0E9166770747E44EA176D74EC01  : public RuntimeObject
+{
+	// System.Int32 Michsky.MUIP.ButtonManager/<CheckForDoubleClick>d__87::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Michsky.MUIP.ButtonManager/<CheckForDoubleClick>d__87::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Michsky.MUIP.ButtonManager Michsky.MUIP.ButtonManager/<CheckForDoubleClick>d__87::<>4__this
+	ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* ___U3CU3E4__this_2;
+};
+
+// Michsky.MUIP.ButtonManager/<SetDisabled>d__86
+struct U3CSetDisabledU3Ed__86_t3A97C18E27F2327DC2EB7C5565DFA887EF8D4D4E  : public RuntimeObject
+{
+	// System.Int32 Michsky.MUIP.ButtonManager/<SetDisabled>d__86::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Michsky.MUIP.ButtonManager/<SetDisabled>d__86::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Michsky.MUIP.ButtonManager Michsky.MUIP.ButtonManager/<SetDisabled>d__86::<>4__this
+	ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* ___U3CU3E4__this_2;
 };
 
 // Michsky.MUIP.ContextMenuContent/<ExecuteAfterTime>d__15
@@ -5245,6 +5275,14 @@ struct String_t_StaticFields
 
 // System.String
 
+// Michsky.MUIP.ButtonManager/<CheckForDoubleClick>d__87
+
+// Michsky.MUIP.ButtonManager/<CheckForDoubleClick>d__87
+
+// Michsky.MUIP.ButtonManager/<SetDisabled>d__86
+
+// Michsky.MUIP.ButtonManager/<SetDisabled>d__86
+
 // Michsky.MUIP.ContextMenuContent/<ExecuteAfterTime>d__15
 
 // Michsky.MUIP.ContextMenuContent/<ExecuteAfterTime>d__15
@@ -6473,6 +6511,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Component_GetComponents_TisRuntimeObject
 
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.MonoBehaviour::StopCoroutine(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_m1DA0B9343DCDB53221A6CD707CBF0827A6FFF17F (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, String_t* ___0_methodName, const RuntimeMethod* method) ;
+// System.Single UnityEngine.CanvasGroup::get_alpha()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CanvasGroup_get_alpha_mBFEA193D2886B27CC53B31F90F7A1659B67ED6DF (CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* __this, const RuntimeMethod* method) ;
+// System.Single UnityEngine.Time::get_unscaledDeltaTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5 (const RuntimeMethod* method) ;
+// System.Void UnityEngine.CanvasGroup::set_alpha(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F (CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* __this, float ___0_value, const RuntimeMethod* method) ;
+// System.Void System.NotSupportedException::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.WaitForSecondsRealtime::.ctor(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* __this, float ___0_time, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
@@ -6492,8 +6540,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Navigation_set_selectOnLeft_
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Navigation_set_selectOnRight_mD0B38024BB628CDC801EA93E9FF7C438ECE2055B_inline (Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C* __this, Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.Selectable::set_navigation(UnityEngine.UI.Navigation)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Selectable_set_navigation_m706D254813B084B60F07980607D7AE43AC44AFEF (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C ___0_value, const RuntimeMethod* method) ;
-// System.Void System.NotSupportedException::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.EventSystems.UIBehaviour::Awake()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIBehaviour_Awake_mDF9D1A4867C8E730C59A7CAE97709CA9B8F3A0F2 (UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D* __this, const RuntimeMethod* method) ;
 // System.Void Michsky.MUIP.PieChart::UpdateIndicators()
@@ -6677,8 +6723,6 @@ inline ContextMenuSubMenu_tC6B536996798EB81F76899007A8295E6DE2F54A7* GameObject_
 {
 	return ((  ContextMenuSubMenu_tC6B536996798EB81F76899007A8295E6DE2F54A7* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
 }
-// System.Void UnityEngine.MonoBehaviour::StopCoroutine(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_m1DA0B9343DCDB53221A6CD707CBF0827A6FFF17F (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, String_t* ___0_methodName, const RuntimeMethod* method) ;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.String,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_mD754B72714F15210DDA429A096D853852FF437AB (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, String_t* ___0_methodName, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<Michsky.MUIP.ContextMenuContent/ContextItem>::get_Count()
@@ -6845,8 +6889,6 @@ inline DemoElementSwayParent_t1174C2FF049D0A136B57E100CDD911DC7C638E36* GameObje
 {
 	return ((  DemoElementSwayParent_t1174C2FF049D0A136B57E100CDD911DC7C638E36* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
 }
-// System.Void UnityEngine.CanvasGroup::set_alpha(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F (CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* __this, float ___0_value, const RuntimeMethod* method) ;
 // System.Void Michsky.MUIP.DemoElementSway::ProcessOverlay()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DemoElementSway_ProcessOverlay_m5F5A28240CE972FFE15F2501E7C65512B4DEB2DD (DemoElementSway_t0DF95911051EED2F23BBE0E8FD8E564D2831CD1F* __this, const RuntimeMethod* method) ;
 // System.Void Michsky.MUIP.DemoElementSway::ProcessSSC()
@@ -6877,10 +6919,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CActiveHelperU3Ed__29__ctor_mD7E01B08B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWMSelectHelperU3Ed__30__ctor_mA2E89AB69DD84CAB1D9DAF8F599E8B842FFA6386 (U3CWMSelectHelperU3Ed__30_tD3719BB888139D2337A9566441D8176BBA5C2B4E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void Michsky.MUIP.DemoElementSway/<WMDeselectHelper>d__31::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWMDeselectHelperU3Ed__31__ctor_mC77C23A81F1927BCB25C5FB87D8EBE01BAD8831D (U3CWMDeselectHelperU3Ed__31_t457C483773C1DF275782F294D732DD1722F55542* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
-// System.Single UnityEngine.CanvasGroup::get_alpha()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CanvasGroup_get_alpha_mBFEA193D2886B27CC53B31F90F7A1659B67ED6DF (CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* __this, const RuntimeMethod* method) ;
-// System.Single UnityEngine.Time::get_unscaledDeltaTime()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5 (const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<Michsky.MUIP.DemoElementSway>()
 inline DemoElementSway_t0DF95911051EED2F23BBE0E8FD8E564D2831CD1F* Component_GetComponent_TisDemoElementSway_t0DF95911051EED2F23BBE0E8FD8E564D2831CD1F_mBBD1F84FC854B49FEFFAB4F9373BB84CA6C32DAE (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -7513,6 +7551,312 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_SmoothDamp_mAF61EA22D4906BF87DD00A91FB4F6AC0C54C495A (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_current, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_target, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_currentVelocity, float ___3_smoothTime, float ___4_maxSpeed, float ___5_deltaTime, const RuntimeMethod* method) ;
 // System.Void System.Array::Clear(System.Array,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___0_array, int32_t ___1_index, int32_t ___2_length, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Michsky.MUIP.ButtonManager/<SetDisabled>d__86::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetDisabledU3Ed__86__ctor_m99857E9A244C539D412EA7CDC0F1909E3C9C0B2D (U3CSetDisabledU3Ed__86_t3A97C18E27F2327DC2EB7C5565DFA887EF8D4D4E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void Michsky.MUIP.ButtonManager/<SetDisabled>d__86::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetDisabledU3Ed__86_System_IDisposable_Dispose_m2980DF60C66DFEA365BD340DAF2118F3BDFA6AAB (U3CSetDisabledU3Ed__86_t3A97C18E27F2327DC2EB7C5565DFA887EF8D4D4E* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean Michsky.MUIP.ButtonManager/<SetDisabled>d__86::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSetDisabledU3Ed__86_MoveNext_m5AB1734E998C0D879207085251C2F89AEF274064 (U3CSetDisabledU3Ed__86_t3A97C18E27F2327DC2EB7C5565DFA887EF8D4D4E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral07593C8A707DC509F1730A342A825559799A65E2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF883BCEEB83CCCC0AD363FDBF0E01C1DD0CDDD5D);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_00a3;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_001a:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// StopCoroutine("SetNormal");
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_4 = V_1;
+		NullCheck(L_4);
+		MonoBehaviour_StopCoroutine_m1DA0B9343DCDB53221A6CD707CBF0827A6FFF17F(L_4, _stringLiteral07593C8A707DC509F1730A342A825559799A65E2, NULL);
+		// StopCoroutine("SetHighlight");
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_5 = V_1;
+		NullCheck(L_5);
+		MonoBehaviour_StopCoroutine_m1DA0B9343DCDB53221A6CD707CBF0827A6FFF17F(L_5, _stringLiteralF883BCEEB83CCCC0AD363FDBF0E01C1DD0CDDD5D, NULL);
+		goto IL_00aa;
+	}
+
+IL_0039:
+	{
+		// normalCG.alpha -= Time.unscaledDeltaTime * fadingMultiplier;
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_6 = V_1;
+		NullCheck(L_6);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_7 = L_6->___normalCG_18;
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_8 = L_7;
+		NullCheck(L_8);
+		float L_9;
+		L_9 = CanvasGroup_get_alpha_mBFEA193D2886B27CC53B31F90F7A1659B67ED6DF(L_8, NULL);
+		float L_10;
+		L_10 = Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5(NULL);
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_11 = V_1;
+		NullCheck(L_11);
+		float L_12 = L_11->___fadingMultiplier_50;
+		NullCheck(L_8);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_8, ((float)il2cpp_codegen_subtract(L_9, ((float)il2cpp_codegen_multiply(L_10, L_12)))), NULL);
+		// highlightCG.alpha -= Time.unscaledDeltaTime * fadingMultiplier;
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_13 = V_1;
+		NullCheck(L_13);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_14 = L_13->___highlightCG_19;
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_15 = L_14;
+		NullCheck(L_15);
+		float L_16;
+		L_16 = CanvasGroup_get_alpha_mBFEA193D2886B27CC53B31F90F7A1659B67ED6DF(L_15, NULL);
+		float L_17;
+		L_17 = Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5(NULL);
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_18 = V_1;
+		NullCheck(L_18);
+		float L_19 = L_18->___fadingMultiplier_50;
+		NullCheck(L_15);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_15, ((float)il2cpp_codegen_subtract(L_16, ((float)il2cpp_codegen_multiply(L_17, L_19)))), NULL);
+		// disabledCG.alpha += Time.unscaledDeltaTime * fadingMultiplier;
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_20 = V_1;
+		NullCheck(L_20);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_21 = L_20->___disabledCG_20;
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_22 = L_21;
+		NullCheck(L_22);
+		float L_23;
+		L_23 = CanvasGroup_get_alpha_mBFEA193D2886B27CC53B31F90F7A1659B67ED6DF(L_22, NULL);
+		float L_24;
+		L_24 = Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5(NULL);
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_25 = V_1;
+		NullCheck(L_25);
+		float L_26 = L_25->___fadingMultiplier_50;
+		NullCheck(L_22);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_22, ((float)il2cpp_codegen_add(L_23, ((float)il2cpp_codegen_multiply(L_24, L_26)))), NULL);
+		// yield return null;
+		__this->___U3CU3E2__current_1 = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)NULL);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_00a3:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+	}
+
+IL_00aa:
+	{
+		// while (disabledCG.alpha < 0.99f)
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_27 = V_1;
+		NullCheck(L_27);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_28 = L_27->___disabledCG_20;
+		NullCheck(L_28);
+		float L_29;
+		L_29 = CanvasGroup_get_alpha_mBFEA193D2886B27CC53B31F90F7A1659B67ED6DF(L_28, NULL);
+		if ((((float)L_29) < ((float)(0.99000001f))))
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		// normalCG.alpha = 0;
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_30 = V_1;
+		NullCheck(L_30);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_31 = L_30->___normalCG_18;
+		NullCheck(L_31);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_31, (0.0f), NULL);
+		// highlightCG.alpha = 0;
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_32 = V_1;
+		NullCheck(L_32);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_33 = L_32->___highlightCG_19;
+		NullCheck(L_33);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_33, (0.0f), NULL);
+		// disabledCG.alpha = 1;
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_34 = V_1;
+		NullCheck(L_34);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_35 = L_34->___disabledCG_20;
+		NullCheck(L_35);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_35, (1.0f), NULL);
+		// }
+		return (bool)0;
+	}
+}
+// System.Object Michsky.MUIP.ButtonManager/<SetDisabled>d__86::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSetDisabledU3Ed__86_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5CA77BCCF9E0BE9CCEA2E7F24A8EC54F8F8FA5C2 (U3CSetDisabledU3Ed__86_t3A97C18E27F2327DC2EB7C5565DFA887EF8D4D4E* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void Michsky.MUIP.ButtonManager/<SetDisabled>d__86::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetDisabledU3Ed__86_System_Collections_IEnumerator_Reset_mA88E77CA3919B97AD03F7D9381DF8AEEA64EDE45 (U3CSetDisabledU3Ed__86_t3A97C18E27F2327DC2EB7C5565DFA887EF8D4D4E* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSetDisabledU3Ed__86_System_Collections_IEnumerator_Reset_mA88E77CA3919B97AD03F7D9381DF8AEEA64EDE45_RuntimeMethod_var)));
+	}
+}
+// System.Object Michsky.MUIP.ButtonManager/<SetDisabled>d__86::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSetDisabledU3Ed__86_System_Collections_IEnumerator_get_Current_m67B4F6E2C84B55A170313F3D67D9D571B080AE6D (U3CSetDisabledU3Ed__86_t3A97C18E27F2327DC2EB7C5565DFA887EF8D4D4E* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Michsky.MUIP.ButtonManager/<CheckForDoubleClick>d__87::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckForDoubleClickU3Ed__87__ctor_mB45F88D43FBECB0754DBB4970100E4D830D248DD (U3CCheckForDoubleClickU3Ed__87_tDBD560E6EB67C0E9166770747E44EA176D74EC01* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void Michsky.MUIP.ButtonManager/<CheckForDoubleClick>d__87::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckForDoubleClickU3Ed__87_System_IDisposable_Dispose_m01229F6465930FC27D7DB9A1B269BC88904C5E53 (U3CCheckForDoubleClickU3Ed__87_tDBD560E6EB67C0E9166770747E44EA176D74EC01* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean Michsky.MUIP.ButtonManager/<CheckForDoubleClick>d__87::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCheckForDoubleClickU3Ed__87_MoveNext_mB534E194A8095979AF5557C51E56497A8F83BA67 (U3CCheckForDoubleClickU3Ed__87_tDBD560E6EB67C0E9166770747E44EA176D74EC01* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// yield return new WaitForSecondsRealtime(doubleClickPeriod);
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_4 = V_1;
+		NullCheck(L_4);
+		float L_5 = L_4->___doubleClickPeriod_49;
+		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_6 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_6, L_5, NULL);
+		__this->___U3CU3E2__current_1 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_6);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_0038:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// waitingForDoubleClickInput = false;
+		ButtonManager_t4A10F14802AD250D643F5C3C7F968D7B09074B21* L_7 = V_1;
+		NullCheck(L_7);
+		L_7->___waitingForDoubleClickInput_67 = (bool)0;
+		// }
+		return (bool)0;
+	}
+}
+// System.Object Michsky.MUIP.ButtonManager/<CheckForDoubleClick>d__87::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCheckForDoubleClickU3Ed__87_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m814820968FF77E339AC0557420460B5E53D735D4 (U3CCheckForDoubleClickU3Ed__87_tDBD560E6EB67C0E9166770747E44EA176D74EC01* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void Michsky.MUIP.ButtonManager/<CheckForDoubleClick>d__87::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckForDoubleClickU3Ed__87_System_Collections_IEnumerator_Reset_mB59B3B926D2B860A2B5ED924C145E5C48AE29383 (U3CCheckForDoubleClickU3Ed__87_tDBD560E6EB67C0E9166770747E44EA176D74EC01* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCheckForDoubleClickU3Ed__87_System_Collections_IEnumerator_Reset_mB59B3B926D2B860A2B5ED924C145E5C48AE29383_RuntimeMethod_var)));
+	}
+}
+// System.Object Michsky.MUIP.ButtonManager/<CheckForDoubleClick>d__87::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCheckForDoubleClickU3Ed__87_System_Collections_IEnumerator_get_Current_m9EE95B95A8A76EC27271102194333F80230D1A94 (U3CCheckForDoubleClickU3Ed__87_tDBD560E6EB67C0E9166770747E44EA176D74EC01* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
