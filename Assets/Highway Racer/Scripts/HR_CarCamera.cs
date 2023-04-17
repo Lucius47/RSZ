@@ -1,26 +1,18 @@
-﻿//----------------------------------------------
-//           	   Highway Racer
-//
-// Copyright © 2014 - 2021 BoneCracker Games
-// http://www.bonecrackergames.com
-//
-//----------------------------------------------
-
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 /// <summary>
 /// Car camera with three modes.
 /// </summary>
 [AddComponentMenu("BoneCracker Games/Highway Racer/Camera/HR Car Camera")]
-public class HR_CarCamera : MonoBehaviour {
-
+public class HR_CarCamera : MonoBehaviour
+{
     public CameraMode cameraMode;       //  Camera modes.
     public enum CameraMode { Top, TPS, FPS }
 
     private GameObject audioListener;   //  Audio listener.
 
-    internal int cameraSwitchCount = 0; //  Current camera mode as int.
+    internal int cameraSwitchCount = 1; //  Current camera mode as int.
 
     private RCC_HoodCamera hoodCam;     //  Hood camera transform.
 

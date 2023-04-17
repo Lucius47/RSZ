@@ -50,6 +50,9 @@ public class ChallengeModeController : MonoBehaviour
     // [ShowIf("testMode")]
     [Range(1, 10)]
     [SerializeField] private int testLevelNumber;
+
+    [SerializeField] private GameObject challengeModeUi;
+    [SerializeField] private GameObject gameOverPopup;
     
     #endregion
 
@@ -60,6 +63,7 @@ public class ChallengeModeController : MonoBehaviour
         if (GameState.SelectedGameMode != GameState.GameMode.Challenges)
         {
             enabled = false;
+            challengeModeUi.SetActive(false);
         }
         
     #if !UNITY_EDITOR
@@ -365,15 +369,22 @@ public class ChallengeModeController : MonoBehaviour
         _isGameRunning = false;
         _playerHandler.GameOver(true);
         StartCoroutine(HR_GamePlayHandler.Instance.OnGameOver(1));
+        
+        gameOverPopup.SetActive(true);
+        gameOverPopup.GetComponentInChildren<TextMeshProUGUI>().text = "Level Cleared!";
     }
 
     private void LevelFail()
     {
+        
         OnLevelFail?.Invoke(_playerHandler);
         failConditionsMet = false;
         _isGameRunning = false;
         _playerHandler.GameOver(false);
         StartCoroutine(HR_GamePlayHandler.Instance.OnGameOver(1));
+        
+        gameOverPopup.SetActive(true);
+        gameOverPopup.GetComponentInChildren<TextMeshProUGUI>().text = "Level Failed!";
     }
     
     #endregion

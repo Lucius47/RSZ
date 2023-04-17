@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b5c994e027a6834ab9c6ca8e527428c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraMode: 0
+  cameraMode: 1
   topFOV: 48
   tpsFOV: 50
   fpsFOV: 60

@@ -739,6 +739,7 @@ IL2CPP_EXTERN_C RuntimeClass* onPaused_t3F3F7338F9EB22BAA66106586DDF324AE04D426F
 IL2CPP_EXTERN_C RuntimeClass* onPlayerDied_t6A727AEFC04CBACA56E41520B0F41626DEBA74F1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* onPlayerSpawned_t4255E01EE13B0AF75C159FF8FB2964BB4BE9C772_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* onResumed_t9A66CCE1700843E7AA7E6BF6194DF801CABAC971_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719;
 IL2CPP_EXTERN_C String_t* _stringLiteral017825EF8C1DA31B93644739E7EFBFF2AB44D2CC;
 IL2CPP_EXTERN_C String_t* _stringLiteral047390AF046A8C6D279BDC6CC06EE5FA071A766E;
 IL2CPP_EXTERN_C String_t* _stringLiteral090FA502222D3819B66DDA710A03F7E8C265BFEC;
@@ -746,6 +747,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral0B71E50F415894BCC15C9A4D562E9F1A568DCE0F
 IL2CPP_EXTERN_C String_t* _stringLiteral0C18EDBB406B286177CC52508046ECAA34E8F5ED;
 IL2CPP_EXTERN_C String_t* _stringLiteral0D37A8355568255064E4B0E3A7235EABB9D6DBB3;
 IL2CPP_EXTERN_C String_t* _stringLiteral0DAEC1637522E868B1F35B6EE2AA8DD140424466;
+IL2CPP_EXTERN_C String_t* _stringLiteral1B5E4C98CAEA7BF5B8502633C79C5C7D954887C2;
 IL2CPP_EXTERN_C String_t* _stringLiteral1EA9FDAF69DF72C9D1CF16DE8ADB89BCAF623EE6;
 IL2CPP_EXTERN_C String_t* _stringLiteral20E39C3AB7068FAFD9E4B868E16D2E5BC64D4952;
 IL2CPP_EXTERN_C String_t* _stringLiteral22FBABF15850915EB366E6088248BDE089930DE4;
@@ -5980,12 +5982,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HR_GamePlayHandler_CheckDayTim
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckDayTimeU3Ed__29__ctor_m31360F2FBDC6C937107D58F5A0F29F7573FEF7DD (U3CCheckDayTimeU3Ed__29_t63C350783C5B341D59584ABA1F1FE1C9620AE843* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void HR_GamePlayHandler/<OnGameOver>d__30::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnGameOverU3Ed__30__ctor_mA61C6D33E8A2852B35FEA66E716AD4AF6CF5C881 (U3COnGameOverU3Ed__30_t6EFCBC807DB8BA1CF8A244BF4FEC220BE00A634B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
-// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1 (int32_t ___0_sceneBuildIndex, const RuntimeMethod* method) ;
+// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___0_sceneName, const RuntimeMethod* method) ;
 // UnityEngine.SceneManagement.Scene UnityEngine.SceneManagement.SceneManager::GetActiveScene()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8 (const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.SceneManagement.Scene::get_buildIndex()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1 (int32_t ___0_sceneBuildIndex, const RuntimeMethod* method) ;
 // System.Void HR_GamePlayHandler/onPaused::Invoke()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void onPaused_Invoke_mFAC0E544BE7CF6E15122C0F7F18C3B76F4E126A7_inline (onPaused_t3F3F7338F9EB22BAA66106586DDF324AE04D426F* __this, const RuntimeMethod* method) ;
 // System.Void HR_GamePlayHandler/onResumed::Invoke()
@@ -6101,10 +6105,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameState_set_SelectedPlayerCarIndex_m08
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_BestScores_m4E8E7F5C5C1F08E0E3294EF082131A83B82B5638 (HR_MainMenuHandler_t79232E4C134636622C349B2D7A8073E791B16AF8* __this, const RuntimeMethod* method) ;
 // System.Void HR_MainMenuHandler::SelectCar()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_SelectCar_m9A363E9430E98F30257FD7434A09D9E5F61BFB1D (HR_MainMenuHandler_t79232E4C134636622C349B2D7A8073E791B16AF8* __this, const RuntimeMethod* method) ;
-// UnityEngine.AsyncOperation UnityEngine.SceneManagement.SceneManager::LoadSceneAsync(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* SceneManager_LoadSceneAsync_mA3C1B55E83225487A615436731B82087D77D4935 (int32_t ___0_sceneBuildIndex, const RuntimeMethod* method) ;
-// System.Void HR_MainMenuHandler::SelectScene(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_SelectScene_m1FD7EAC8EF57CFDF239952EFF04FCBDA2E911D18 (HR_MainMenuHandler_t79232E4C134636622C349B2D7A8073E791B16AF8* __this, int32_t ___0_levelIndex, const RuntimeMethod* method) ;
+// UnityEngine.AsyncOperation UnityEngine.SceneManagement.SceneManager::LoadSceneAsync(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* SceneManager_LoadSceneAsync_m84D316B1993A4E69F9E8CDE30531687B701F9300 (String_t* ___0_sceneName, const RuntimeMethod* method) ;
+// System.Void HR_MainMenuHandler::SelectScene(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_SelectScene_m45A09E5058E217498062DB6DE4F9A1A13E1C89F9 (HR_MainMenuHandler_t79232E4C134636622C349B2D7A8073E791B16AF8* __this, String_t* ___0_sceneName, const RuntimeMethod* method) ;
 // System.Int32[] HR_API::GetHighScores()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* HR_API_GetHighScores_mF43FC00F82320E507E125CB10C93DCB004ED1DDC (const RuntimeMethod* method) ;
 // System.Void UnityEngine.Application::Quit()
@@ -10345,12 +10349,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_GamePlayHandler_MainMenu_m4D407539E73
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// SceneManager.LoadScene(0);
+		// SceneManager.LoadScene("MainMenu");
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1(0, NULL);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719, NULL);
 		// }
 		return;
 	}
@@ -12277,8 +12282,8 @@ IL_0063:
 		return;
 	}
 }
-// System.Void HR_MainMenuHandler::SelectScene(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_SelectScene_m1FD7EAC8EF57CFDF239952EFF04FCBDA2E911D18 (HR_MainMenuHandler_t79232E4C134636622C349B2D7A8073E791B16AF8* __this, int32_t ___0_levelIndex, const RuntimeMethod* method) 
+// System.Void HR_MainMenuHandler::SelectScene(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_SelectScene_m45A09E5058E217498062DB6DE4F9A1A13E1C89F9 (HR_MainMenuHandler_t79232E4C134636622C349B2D7A8073E791B16AF8* __this, String_t* ___0_sceneName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12292,11 +12297,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_SelectScene_m1FD7EAC8
 		// EnableMenu(loadingScreen);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___loadingScreen_15;
 		HR_MainMenuHandler_EnableMenu_mCFB8E45A8F6BE59FE91A940A8F0E31DE8790C359(__this, L_0, NULL);
-		// _async = SceneManager.LoadSceneAsync(levelIndex);
-		int32_t L_1 = ___0_levelIndex;
+		// _async = SceneManager.LoadSceneAsync(sceneName);
+		String_t* L_1 = ___0_sceneName;
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_2;
-		L_2 = SceneManager_LoadSceneAsync_mA3C1B55E83225487A615436731B82087D77D4935(L_1, NULL);
+		L_2 = SceneManager_LoadSceneAsync_m84D316B1993A4E69F9E8CDE30531687B701F9300(L_1, NULL);
 		__this->____async_17 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____async_17), (void*)L_2);
 		// }
@@ -12419,14 +12424,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HR_MainMenuHandler_SelectCMLevelAndPlay_
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameState_t152D0B22E8EE644B8FE170865D50FB96CC7FA08A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1B5E4C98CAEA7BF5B8502633C79C5C7D954887C2);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		// GameState.CurrentCMLevel = level;
 		int32_t L_0 = ___0_level;
 		((GameState_t152D0B22E8EE644B8FE170865D50FB96CC7FA08A_StaticFields*)il2cpp_codegen_static_fields_for(GameState_t152D0B22E8EE644B8FE170865D50FB96CC7FA08A_il2cpp_TypeInfo_var))->___CurrentCMLevel_2 = L_0;
-		// SelectScene(1);
-		HR_MainMenuHandler_SelectScene_m1FD7EAC8EF57CFDF239952EFF04FCBDA2E911D18(__this, 1, NULL);
+		// SelectScene("Highway");
+		HR_MainMenuHandler_SelectScene_m45A09E5058E217498062DB6DE4F9A1A13E1C89F9(__this, _stringLiteral1B5E4C98CAEA7BF5B8502633C79C5C7D954887C2, NULL);
 		// }
 		return;
 	}

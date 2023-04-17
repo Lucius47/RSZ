@@ -41,7 +41,7 @@ public class BannerAdsManager : GenericSingleton<BannerAdsManager>
         }
 
         // Create a 320x50 banner at top of the screen
-        _smallBannerView = new BannerView(smallBannerAdUnitId, AdSize.Banner, AdPosition.Top);
+        _smallBannerView = new BannerView(smallBannerAdUnitId, AdSize.Banner, AdPosition.Bottom);
 
         ListenToSmallBannerAdEvents();
     }

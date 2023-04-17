@@ -45,8 +45,8 @@ public class HR_GamePlayHandler : MonoBehaviour
 
     internal AudioSource gameplaySoundtrack;
 
-    private void Awake() {
-
+    private void Awake()
+    {
         //  Make sure time scale is 1. We are setting volume to 0, we'll be increase it smoothly in update method.
         Time.timeScale = 1f;
         AudioListener.volume = 0f;
@@ -62,39 +62,13 @@ public class HR_GamePlayHandler : MonoBehaviour
         }
 
         //  Getting selected player car index and mode index.
-        // selectedCarIndex = PlayerPrefs.GetInt("SelectedPlayerCarIndex");
-        // selectedModeIndex = PlayerPrefs.GetInt("SelectedModeIndex");
         selectedCarIndex = GameState.SelectedPlayerCarIndex;
-        // selectedModeIndex = GameState.SelectedModeIndex;
-
-        //  Setting proper mode.
-        // switch (selectedModeIndex)
-        // {
-        //     case 0:
-        //         GameState.SelectedGameMode = GameState.GameMode.Endless;
-        //         break;
-        //     // case 1:
-        //     //     mode = Mode.TwoWay;
-        //     //     break;
-        //     case 2:
-        //         GameState.SelectedGameMode = GameState.GameMode.TimeAttack;
-        //         break;
-        //     case 3:
-        //         GameState.SelectedGameMode = GameState.GameMode.Bomb;
-        //         break;
-        //     case 4:
-        //         GameState.SelectedGameMode = GameState.GameMode.Challenges;
-        //         break;
-        //     case 5:
-        //         GameState.SelectedGameMode = GameState.GameMode.Racing;
-        //         break;
-        // }
     }
 
     private void Start()
     {
-        SpawnCar();     //  Spawning the player vehicle.
-        StartCoroutine(WaitForGameStart());     //  And wait for the countdown.
+        SpawnCar();
+        StartCoroutine(WaitForGameStart());     // wait for the countdown.
     }
 
     private void OnEnable()
@@ -120,13 +94,6 @@ public class HR_GamePlayHandler : MonoBehaviour
 
     private void HR_PlayerHandler_OnGameOver(HR_PlayerHandler player, int[] scores, bool didWin)
     {
-        // Respawn in Challenge or Racing Mode
-        // if (GameState.SelectedGameMode is GameState.GameMode.Challenges or GameState.GameMode.Racing)
-        // {
-        //     StartCoroutine(Respawn(1f));
-        //     return;
-        // }
-        
         StartCoroutine(OnGameOver(1f));
     }
 
@@ -215,13 +182,6 @@ public class HR_GamePlayHandler : MonoBehaviour
         }
     }
 
-    // private IEnumerator Respawn(float delayTime)
-    // {
-    //     yield return new WaitForSecondsRealtime(delayTime);
-    //     
-    //     player.RespawnCar();
-    // }
-    
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");

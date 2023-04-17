@@ -1,9 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MainMenuAds : MonoBehaviour
 {
+    private void Start()
+    {
+        BannerAdsManager.Instance.ShowSmallBannerAd();
+    }
+
     public void ShowBanner()
     {
         BannerAdsManager.Instance.ShowSmallBannerAd();
