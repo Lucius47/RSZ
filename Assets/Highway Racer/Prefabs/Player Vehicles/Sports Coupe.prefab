@@ -1106,8 +1106,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5091319f97e9bb4a8a38147e7f9ecb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyRenderer: {fileID: 0}
-  index: 0
+  bodyRenderer: {fileID: 8986043611085631077}
+  index: 6
 --- !u!1 &1785178441344402086
 GameObject:
   m_ObjectHideFlags: 0
@@ -26533,6 +26533,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019333454, y: 0.04426608, z: 0.010134086}
   m_Center: {x: 0.000014103949, y: -0.0012984544, z: 0.005926122}
+--- !u!23 &8986043611085631077 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: e36226eba6f4ded44a692c16c49e86ba,
+    type: 3}
+  m_PrefabInstance: {fileID: 8986043611083601413}
+  m_PrefabAsset: {fileID: 0}
 --- !u!33 &8986043611086597283 stripped
 MeshFilter:
   m_CorrespondingSourceObject: {fileID: 3300006, guid: e36226eba6f4ded44a692c16c49e86ba,

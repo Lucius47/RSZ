@@ -7,31 +7,36 @@ public class MainMenuAds : MonoBehaviour
 {
     private void Start()
     {
-        BannerAdsManager.Instance.ShowSmallBannerAd();
+        BannerAdsManager.Instance?.ShowSmallBannerAd();
     }
 
     public void ShowBanner()
     {
-        BannerAdsManager.Instance.ShowSmallBannerAd();
+        BannerAdsManager.Instance?.ShowSmallBannerAd();
     }
     
     public void HideBanner()
     {
-        BannerAdsManager.Instance.HideSmallBannerAd();
+        BannerAdsManager.Instance?.HideSmallBannerAd();
     }
 
     public void ShowInt()
     {
-        InterstitialAdsManager.Instance.ShowInterstitialAd();
+        InterstitialAdsManager.Instance?.ShowInterstitialAd();
     }
 
     public void ShowRwd()
     {
-        RewardedAdsManager.Instance.ShowAdmobRewardedAd(RewardUser);
+        RewardedAdsManager.Instance?.ShowAdmobRewardedAd(RewardUser);
     }
 
     private void RewardUser()
     {
         Debug.LogError("User Rewarded");
+    }
+
+    private void OnDisable()
+    {
+        BannerAdsManager.Instance?.HideAllAds();
     }
 }

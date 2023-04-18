@@ -15,7 +15,7 @@ MonoBehaviour:
   bombedVehicleForBombMode: {fileID: 125544, guid: b2baf364cd8538740b8ef9e77578a13c,
     type: 3}
   cars:
-  - vehicleName: New Car
+  - vehicleName: Sports Coupe
     playerCar: {fileID: 3670145196969986752, guid: ecd0426055947a444831d323554508e6,
       type: 3}
     maxSpeed: 200
@@ -23,14 +23,14 @@ MonoBehaviour:
     maxBraking: 4
     unlocked: 1
     price: 0
-  - vehicleName: Stock
-    playerCar: {fileID: 8585930688883317657, guid: aefbfdf86788c6c4d861350fc743e098,
+  - vehicleName: Ford Mustang King Cobra 1978
+    playerCar: {fileID: 269844238560102144, guid: 913a1d7c2cbf67f42a64a8698dda6e08,
       type: 3}
     maxSpeed: 200
     maxHandling: 4
     maxBraking: 4
     unlocked: 1
-    price: 0
+    price: 35000
   - vehicleName: Alfa Romeo Stardale 1967
     playerCar: {fileID: 3670145196969986752, guid: cab6a8e91c0906c40b03e6ef79cb1df0,
       type: 3}
@@ -39,6 +39,14 @@ MonoBehaviour:
     maxBraking: 4
     unlocked: 1
     price: 25000
+  - vehicleName: Stock
+    playerCar: {fileID: 8585930688883317657, guid: aefbfdf86788c6c4d861350fc743e098,
+      type: 3}
+    maxSpeed: 200
+    maxHandling: 4
+    maxBraking: 4
+    unlocked: 1
+    price: 0
   - vehicleName: Muscle
     playerCar: {fileID: 4512632341101837302, guid: 687877e5b8c2cf241b222e380d440d7f,
       type: 3}
