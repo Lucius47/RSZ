@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad109aeff86eef146bf11bcb8fdf04da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _adUnitId: ca-app-pub-3940256099942544/5224354917
+  _adUnitId: ca-app-pub-1728852659514481/5161327102
 --- !u!114 &154776067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcca391825262c642b14fc5a1d60fadf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  adUnitId: ca-app-pub-3940256099942544/1033173712
+  adUnitId: ca-app-pub-1728852659514481/1413653780
 --- !u!114 &154776068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0323da87e2d273e4eb61b4391831c293, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smallBannerAdUnitId: ca-app-pub-3940256099942544/6300978111
+  smallBannerAdUnitId: ca-app-pub-1728852659514481/1185271698
 --- !u!1 &335834476
 GameObject:
   m_ObjectHideFlags: 0
